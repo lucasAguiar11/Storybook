@@ -1,10 +1,12 @@
 import { MouseEventHandler, ReactNode } from "react";
 import styled from "styled-components";
 
-
 interface ButtonProps {
+  /** Essa prop é das opções de cor  */
   variant?: "primary" | "accent";
+  /** Essa prop é das opções de tamanho */
   children: ReactNode;
+  /** lorasdka osdkoa skdoaksdoaks */
   disabled: boolean;
   onClick?: () => MouseEventHandler<HTMLButtonElement>;
 }
